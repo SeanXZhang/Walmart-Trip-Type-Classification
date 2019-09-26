@@ -1,5 +1,5 @@
 # Walmart Trip Type Classification
-[ Overview ]
+## [ Overview ]
 (1) Team : 
 Sean Zhang
 Zheng Xu
@@ -8,7 +8,7 @@ Walmart Shopping Records
 (3) Objective :
 Trip Type Classification of each customers based on thier shopping data
 
-[Data Description]
+## [Data Description]
 train : 647054 rows, 7 columns
 test : 653646 rows, 6 columns
 identical features except the target value (TripType)
@@ -24,7 +24,7 @@ Index	Feature	Feature Description	Unique Value
 
 
 
-[Contents]
+## [Contents]
 (1) EDA & Preprocessing
 Missing Values
 Encoding Weekday
