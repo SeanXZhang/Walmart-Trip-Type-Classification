@@ -42,18 +42,18 @@
 > - Uneven Distribution of TripType
 > - Most Frequent & Least Frequent TripType
 
-### (1) Feature Engineering
+### (2) Feature Engineering
 > - Removing Missing Values
 > - ScanCount seperation
 > - Encoding Weekday, Department Descriptions
 > - Dummy variables
 > - Identifing the most frequently purchased items per VisitNumber
 
-### (2) Modeling
+### (3) Modeling
 > - RandomForest
 > - XGBoost
 
-### (3) Results
+### (4) Results
 > - Logarithmic loss : 0.78259
 > - Accuracy score : 73.68%
 > - Feature Importance Top 20
