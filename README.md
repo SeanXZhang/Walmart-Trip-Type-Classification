@@ -1,6 +1,6 @@
 # Walmart Trip Type Classification
 ## [ Overview ]
-### (1) Team : 
+### (1) Team Members : 
 > #### Sean Zhang
 > #### Zheng Xu
 ### (2) Dataset :
