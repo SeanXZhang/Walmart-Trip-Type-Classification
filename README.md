@@ -1,12 +1,15 @@
 # Walmart Trip Type Classification
 ## [ Overview ]
-(1) Team : 
-Sean Zhang
-Zheng Xu
-(2) Dataset :
-Walmart Shopping Records
-(3) Objective :
-Trip Type Classification of each customers based on thier shopping data
+### (1) Team : 
+> #### Sean Zhang
+> #### Zheng Xu
+### (2) Dataset :
+> #### Walmart Shopping Records
+
+### (3) Objective :
+> #### Trip Type Classification of each customers based on thier shopping data
+
+<br>
 
 ## [Data Description]
 train : 647054 rows, 7 columns
