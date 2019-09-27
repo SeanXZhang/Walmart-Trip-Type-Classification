@@ -7,8 +7,8 @@
 > #### Walmart Shopping Records
 
 ### (3) Objective :
-> #### Trip Type Classification of each customers based on thier shopping data
-
+> #### Classification of 38 Trip types of each customer based on thier shopping data
+(e.g. department, Upc, FinelineNumber, Weekday, Scan count) 
 <br>
 
 ## [Data Description]
