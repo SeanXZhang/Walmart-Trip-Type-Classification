@@ -58,7 +58,7 @@
 3. Neural networks based stacking with XGBoost as meta-classifier
 
 ### (4) Results
-> - Logarithmic loss : 0.78259
-> - Accuracy score : 73.68%
+> - Logarithmic loss : 0.7912
+> - Accuracy score : 73.24%
 > - Total Teams : 1,047 teams
 > - Ranking : Top 30%
