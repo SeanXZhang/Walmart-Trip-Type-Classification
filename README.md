@@ -29,30 +29,36 @@
 
 
 <br>
-[Evaluation]
-
-
+### [Evaluation] : Multi-class log loss (Cross Entropy)\n",
+    " $$-\\frac{1}{N}\\sum_{i=1}^N\\sum_{j=1}^My_{ij}\\log(p_{ij})$$\n",
+    "\n",
+    "- $N$ : the number of visits in the test set\n",
+    "- $M$ : the number of trip types\n",
+    "- $\\log$ : natural logarithm\n",
+    "- $y_{ij}$ : 1 if observation i is of class j and 0 otherwise\n",
+    "- $p_{ij}$ : the predicted probability that observation i belongs to class j"
+<br>
 
 # [Contents]
 
-### (1) EDA & Preprocessing
+### (1) Challenges
 > - Missing Values
 > - Encoding Weekday
 > - Uneven Distribution of TripType
 > - Most Frequent & Least Frequent TripType
 
-### (2) Feature Engineering
-> - UPC decoding
+### (1) Feature Engineering
+> - Removing Missing Values
 > - ScanCount seperation
-> - Feature encoding
+> - Encoding Weekday, Department Descriptions
 > - Dummy variables
 > - Identifing the most frequently purchased items per VisitNumber
 
-### (3) Modeling
+### (2) Modeling
 > - RandomForest
 > - XGBoost
 
-### (4) Results
+### (3) Results
 > - Logarithmic loss : 0.78259
 > - Accuracy score : 73.68%
 > - Feature Importance Top 20
