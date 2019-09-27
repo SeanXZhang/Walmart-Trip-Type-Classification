@@ -53,8 +53,16 @@
 > - Identifing the most frequently purchased items per VisitNumber
 
 ### (3) Modeling
-> - RandomForest
-> - XGBoost
+> - Ensemble Methods:
+Random Forest Classifier
+Extreme Gradient Boost Classifier (XGBoost)
+> - Neural Networks:
+Keras classifiers with 1, 2, 3 and 4 hidden layers
+> - Stacking Classifiers:
+Neural networks as both the first-level classifiers and meta-classifier
+Neural networks based stacking with multinomial logistic regression as meta-classifier
+Neural networks based stacking with XGBoost as meta-classifier
+
 
 ### (4) Results
 > - Logarithmic loss : 0.78259
