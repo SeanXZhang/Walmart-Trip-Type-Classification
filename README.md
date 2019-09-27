@@ -30,7 +30,7 @@
 
 <br>
 
-# [Evaluation] : Multi-class log loss (Cross Entropy)\n",
+# [Evaluation] : Multi-class log loss (Cross Entropy)
 $$-\\frac{1}{N}\\sum_{i=1}^N\\sum_{j=1}^My_{ij}\\log(p_{ij})$$
     "\n",
     "- $N$ : the number of visits in the test set\n",
