@@ -31,13 +31,7 @@
 <br>
 
 ## [Evaluation] : Multi-class log loss (Cross Entropy)
-$$-\\frac{1}{N}\\sum_{i=1}^N\\sum_{j=1}^My_{ij}\\log(p_{ij})$$
-    "\n",
-    "- $N$ : the number of visits in the test set\n",
-    "- $M$ : the number of trip types\n",
-    "- $\\log$ : natural logarithm\n",
-    "- $y_{ij}$ : 1 if observation i is of class j and 0 otherwise\n",
-    "- $p_{ij}$ : the predicted probability that observation i belongs to class j"
+> ![](https://github.com/yunah0515/dss7_SWYA_walmart/blob/master/image/evaluation.png?raw=true)
 <br>
 
 ## [Contents]
