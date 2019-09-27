@@ -44,7 +44,6 @@
 > - Duplicate department labels. Eg: “MENSWEAR” and“MENS WEAR”.
 > - Number of unique UPCs and Fineline Numbers are large and without direct meanings, either need to select the top most frequent UPC and Fineline number categories and decoding are required.
 
-
 ### (2) Feature Engineering
 > - Removing Missing Values
 > - ScanCount seperation
@@ -53,15 +52,12 @@
 > - Identifing the most frequently purchased items per VisitNumber
 
 ### (3) Modeling
-> - Ensemble Methods:
-Random Forest Classifier
-Extreme Gradient Boost Classifier (XGBoost)
-> - Neural Networks:
-Keras classifiers with 1, 2, 3 and 4 hidden layers
+> - Ensemble Methods: Random Forest Classifier, Extreme Gradient Boost Classifier (XGBoost)
+> - Neural Networks: Keras classifiers with 1, 2, 3 and 4 hidden layers
 > - Stacking Classifiers:
-Neural networks as both the first-level classifiers and meta-classifier
-Neural networks based stacking with multinomial logistic regression as meta-classifier
-Neural networks based stacking with XGBoost as meta-classifier
+1. Neural networks as both the first-level classifiers and meta-classifier, 
+2. Neural networks based stacking with multinomial logistic regression as meta-classifier, 
+3. Neural networks based stacking with XGBoost as meta-classifier
 
 
 ### (4) Results
