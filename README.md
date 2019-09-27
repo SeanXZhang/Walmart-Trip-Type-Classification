@@ -11,7 +11,7 @@
 <br>
 
 ## [Data Description]
-
+> #### Kaggle link : https://www.kaggle.com/c/walmart-recruiting-trip-type-classification/
 > #### train : 647054 rows, 7 columns
 > #### test : 653646 rows, 6 columns
 > - identical features except the target value (TripType)
@@ -25,8 +25,6 @@
 | 5     | ScanCount             | The number of the given item that was purchased. A negative value indicates a product return          | 39     |
 | 6     | DepartmentDescription | A high-level description of the item's department                                | 69     |
 | 7     | FinelineNumber        | A more refined category for each of the products, created by Walmart | 5196   |
-
-
 <br>
 
 ## [Evaluation] : Multi-class log loss (Cross Entropy)
@@ -59,9 +57,8 @@
 2. Neural networks based stacking with multinomial logistic regression as meta-classifier, 
 3. Neural networks based stacking with XGBoost as meta-classifier
 
-
 ### (4) Results
 > - Logarithmic loss : 0.78259
 > - Accuracy score : 73.68%
-> - Feature Importance Top 20
-
+> - Total Teams : 1,047 teams
+> - Ranking : Top 30%
