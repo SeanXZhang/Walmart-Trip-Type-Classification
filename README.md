@@ -11,7 +11,7 @@
 
 <br>
 
-# [Data Description]
+## [Data Description]
 
 > #### train : 647054 rows, 7 columns
 > #### test : 653646 rows, 6 columns
@@ -30,7 +30,7 @@
 
 <br>
 
-# [Evaluation] : Multi-class log loss (Cross Entropy)
+## [Evaluation] : Multi-class log loss (Cross Entropy)
 $$-\\frac{1}{N}\\sum_{i=1}^N\\sum_{j=1}^My_{ij}\\log(p_{ij})$$
     "\n",
     "- $N$ : the number of visits in the test set\n",
@@ -40,7 +40,7 @@ $$-\\frac{1}{N}\\sum_{i=1}^N\\sum_{j=1}^My_{ij}\\log(p_{ij})$$
     "- $p_{ij}$ : the predicted probability that observation i belongs to class j"
 <br>
 
-# [Contents]
+## [Contents]
 
 ### (1) Challenges
 > - Missing Values
