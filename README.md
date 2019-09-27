@@ -36,10 +36,14 @@
 ## [Contents]
 
 ### (1) Challenges
-> - Missing Values
-> - Encoding Weekday
-> - Uneven Distribution of TripType
-> - Most Frequent & Least Frequent TripType
+> - Each observation represented an item rather than a visit. 
+> - Need to group observations by visit to classify the trip.
+> - Uneven Distribution of TripType.
+> - Records with incomplete values, however many of them do contain some information.
+> - Dummy variables (Categorical) - Weekday; Converted qualitative values to quantitative. Eg: Monday =1, Tuesday =2.
+> - Duplicate department labels. Eg: “MENSWEAR” and“MENS WEAR”.
+> - Number of unique UPCs and Fineline Numbers are large and without direct meanings, either need to select the top most frequent UPC and Fineline number categories and decoding are required.
+
 
 ### (2) Feature Engineering
 > - Removing Missing Values
