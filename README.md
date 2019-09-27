@@ -33,26 +33,27 @@
 
 
 
-## [Contents]
-(1) EDA & Preprocessing
-Missing Values
-Encoding Weekday
-Uneven Distribution of TripType
-Most Frequent & Least Frequent TripType
-(2) Feature Engineering
-UPC decoding
-ScanCount seperation
-Feature encoding
-Dummy variables
-Identifing the most frequently purchased items per VisitNumber
-(3) Modeling
-RandomForest
-XGBoost
-(4) Results
-Logarithmic loss : 0.78259
-Accuracy score : 73.68%
-Feature Importance Top 20
-(5) Kaggle Submission
-Total Teams : 1,047 teams
-Final Score : 0.79154
-Leaderboard : 294 / 1,047 (Top 30%)
+# [Contents]
+
+### (1) EDA & Preprocessing
+> - Missing Values
+> - Encoding Weekday
+> - Uneven Distribution of TripType
+> - Most Frequent & Least Frequent TripType
+
+### (2) Feature Engineering
+> - UPC decoding
+> - ScanCount seperation
+> - Feature encoding
+> - Dummy variables
+> - Identifing the most frequently purchased items per VisitNumber
+
+### (3) Modeling
+> - RandomForest
+> - XGBoost
+
+### (4) Results
+> - Logarithmic loss : 0.78259
+> - Accuracy score : 73.68%
+> - Feature Importance Top 20
+
