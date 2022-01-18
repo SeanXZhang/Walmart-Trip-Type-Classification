@@ -57,8 +57,8 @@
 2. Neural networks based stacking with multinomial logistic regression as meta-classifier, 
 3. Neural networks based stacking with XGBoost as meta-classifier
 
-### (4) Results
+### (4) Best Model Results
 > - Logarithmic loss : 0.7912
 > - Accuracy score : 73.24%
 > - Total Teams : 1,047 teams
-> - Ranking : Top 30%
+> - Ranking : Top 25%
